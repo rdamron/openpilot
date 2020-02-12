@@ -325,6 +325,11 @@ routes = {
     'carFingerprint': TOYOTA.LEXUS_RX_TSS2,
     'enableCamera': True,
   },
+  "ec429c0f37564e3c|2020-02-01--17-28-12": {
+    'carFingerprint': TOYOTA.LEXUS_NXH,
+    'enableCamera': True,
+    'enableDsu': False,
+  },
   #FIXME: This works sometimes locally, but never in CI. Timing issue?
   #"b0f5a01cf604185c|2018-01-31--20-11-39": {
   #  'carFingerprint': TOYOTA.LEXUS_RXH,
@@ -368,6 +373,11 @@ routes = {
   #   'enableDsu': False,
   # },
   # TODO: missingsome combos for highlander
+  "0a302ffddbb3e3d3|2020-02-08--16-19-08": {
+    'carFingerprint': TOYOTA.HIGHLANDER_TSS2,
+    'enableCamera': True,
+    'enableDsu': False,
+  },
   "aa659debdd1a7b54|2018-08-31--11-12-01": {
     'carFingerprint': TOYOTA.HIGHLANDER,
     'enableCamera': False,
